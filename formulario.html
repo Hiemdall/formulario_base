@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de ejemplo</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<h1>Formulario de ejemplo</h1>
+
+	<form action="procesar.php" method="post">
+		<label for="codigo">Codigo:</label>
+		<input type="text" id="codigo" name="codigo">
+
+		<label for="tipo">Tipo:</label>
+		<input type="text" id="tipo" name="tipo">
+
+		<label for="fecha">Fecha:</label>
+		<input type="date" id="fecha" name="fecha">
+
+		<br><br>
+
+		<button type="submit" name="accion" value="insertar">Insertar</button>
+		<button type="submit" name="accion" value="editar">Editar</button>
+		<button type="submit" name="accion" value="modificar">Modificar</button>
+		<button type="submit" name="accion" value="eliminar">Eliminar</button>
+		<button type="submit" name="accion" value="buscar">Buscar</button>
+	</form>
+
+</body>
+</html>
